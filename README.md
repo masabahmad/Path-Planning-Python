@@ -22,3 +22,5 @@ python3.4 dijk_range_mp.py 1 128 16
 The generated file will have the name range-1-128-16.out
 
 Remember to create the folder first though.
+
+You can also run the two test scripts to run the parallelization of your choice.
