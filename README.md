@@ -18,6 +18,9 @@ Running
 
 We use Python3.4 as it has a barrier implementation.
 
+Checkout the Repo:
+git clone https://github.com/masabahmad/path_planning_python
+
 To run, use the following command:
 
 python3.4 dijk_range_mp.py P N D
