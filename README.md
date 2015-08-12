@@ -4,7 +4,7 @@ Parallelization and Analysis of the Path Planning Problem : Dijkstra
 
 This repository contains two files, each of which is a parallelization of Dijkstra's Algorithm in Python.
 We use two parallelization paradigms, the threading library, and the multiprocessing library in Python.
-An in built synthetic random graph generater in included.
+An in-built synthetic random graph generater is included.
 Real World Graphs can be interfaced with some additional programming.
 
 Requirements
