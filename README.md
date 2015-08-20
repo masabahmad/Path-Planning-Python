@@ -37,6 +37,9 @@ Remember to create the folder first though.
 You can also run the two test scripts to run the parallelization of your choice.
 Some machines will need to relase Python's memory limit interpreter lock to generate large synthetic graphs.
 
+C/C++ versions running with Road Networks from the SNAP suite can be found at:
+https://github.com/masabahmad/CRONO
+
 Notice
 ======
 
