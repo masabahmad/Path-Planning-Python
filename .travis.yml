@@ -3,6 +3,11 @@ env:
 language: python
 python:
   - "3.4"
+install:
+  - pip install -r requirements.txt --use-mirrors
+  - pip install python-coveralls --use-mirrors
+  - pip install nose-cov --use-mirrors
+  - python setup.py install
 script:
   - make
 notifications:
