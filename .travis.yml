@@ -1,14 +1,8 @@
-install:
-  - sudo apt-get update -qq
-  - sudo apt-get install -y libboost-graph-dev
-  - sudo apt-get install -y libboost-regex-dev
-  - sudo apt-get install -y libz-dev
-  - sudo apt-get install -y libpthread-stubs0-dev
 env:
   - HOME=$PWD
 language: python
 compiler:
-  - python3.4
+  - python
 script:
   - make
 notifications:
