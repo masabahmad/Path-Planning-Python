@@ -6,7 +6,7 @@ Parallelization and Analysis of the Path Planning Problem : Dijkstra
 
 This repository contains two files, each of which is a parallelization of Dijkstra's Algorithm in Python.
 We use two parallelization paradigms, the threading library, and the multiprocessing library in Python.
-An in built synthetic random graph generater in included.
+An in-built synthetic random graph generater is included.
 Real World Graphs can be interfaced with some additional programming.
 
 Requirements
@@ -24,7 +24,6 @@ Checkout the Repo:
 git clone https://github.com/masabahmad/path_planning_python
 
 To run, use the following command:
-
 python3.4 dijk_range_mp.py P N D
 
 P is the number of processes to be spawned, N is the number of vertices the graph generater will generate, and D is the degree of the graph (edges per vertex).
@@ -36,10 +35,12 @@ For example if you run:
 python3.4 dijk_range_mp.py 1 128 16
 
 The generated file will have the name range-1-128-16.out
-
 Remember to create the folder first though.
-
 You can also run the two test scripts to run the parallelization of your choice.
+Some machines will need to relase Python's memory limit interpreter lock to generate large synthetic graphs.
+
+C/C++ versions running with Road Networks from the SNAP suite can be found at:
+https://github.com/masabahmad/CRONO
 
 Notice
 ======
