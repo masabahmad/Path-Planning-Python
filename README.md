@@ -2,6 +2,8 @@
 Parallelization and Analysis of the Path Planning Problem : Dijkstra
 ====================================================================
 
+[![build status](https://travis-ci.org/masabahmad/Path-Planning-Python.svg?branch=master)](https://travis-ci.org/masabahmad/Path-Planning-Python)
+
 This repository contains two files, each of which is a parallelization of Dijkstra's Algorithm in Python.
 We use two parallelization paradigms, the threading library, and the multiprocessing library in Python.
 An in built synthetic random graph generater in included.
