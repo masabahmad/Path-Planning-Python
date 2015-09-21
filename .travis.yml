@@ -1,0 +1,11 @@
+language: python
+python:
+  - "3.4"
+script:
+  - make
+notifications:
+  email:
+    on_success: never
+    on_failure: always
+    recipients:
+      - masab.ahmad@uconn.edu
